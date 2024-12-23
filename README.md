@@ -25,3 +25,11 @@ If I were to sit down and optimize this challenge, I would only test placements 
 Process the input file, eval base2 then base3 iteration through the operators.
 The most annoying part of this one was the left-to-right eval instead of obeying the order of operations.
 
+### --- Day 8: Resonant Collinearity ---
+![pygame nodes and antinodes](./img/nodes_and_antinodes.png)
+Another grid-based challenge. My initial thought is to eval each unique node type. If there are less than 2 nodes for a given node type, ignore it. The antinodes seem simple enough. So, I'll draw lines between the nodes and tripple the cartesion points. 
+example: ". . . a . a . . ." = ". # . a . a . # ." or , [(0,3),(0,5)] (len of 2) => [(0,1),(0,7)] (len of 6)
+
+part 2 is just...irritating. I'll come back to it later (famous last words.)
+
+### --- Day 9: ---
